@@ -30,14 +30,14 @@ public class Main {
             }
         }
 
-        for (int i = 0; i < tamano; i++) {
-            for (int j = 0; j <tamano; j++) {
-                System.out.print(tablero[i][j]);
-            }
-            System.out.println();
-        }
-
-        System.out.println("------------------");
+//        for (int i = 0; i < tamano; i++) {
+//            for (int j = 0; j <tamano; j++) {
+//                System.out.print(tablero[i][j]);
+//            }
+//            System.out.println();
+//        }
+//
+//        System.out.println("------------------");
 
 
         for (int i = 0; i < tamano; i++) {
@@ -64,6 +64,8 @@ public class Main {
             }
 
 
+            System.out.println("\033[H\033[2J");
+            System.out.flush();
 
             for (int i = 0; i < tamano; i++) {
                 for (int j = 0; j <tamano; j++) {
