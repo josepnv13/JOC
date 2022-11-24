@@ -42,7 +42,7 @@ public class Main {
 
         for (int i = 0; i < tamano; i++) {
             for (int j = 0; j <tamano; j++) {
-                System.out.print("\uD83C\uDFB4");
+                System.out.print("🎴");
             }
             System.out.println();
         }
